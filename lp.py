@@ -1,3 +1,10 @@
+# ==================================================================
+# The best classifier
+# Final project for the course "Machine Learning with python"
+# (C) Thomas Bitterlich, T-Systems International
+# 21.01.21 final version
+# ==================================================================
+
 # =================
 # === imports
 # =================
