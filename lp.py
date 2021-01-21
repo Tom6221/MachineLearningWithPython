@@ -143,8 +143,7 @@ def trainKnn(train, ytrain, test, ytest, TestSize):
     for k in range(1, 40):
         #print("======= k = " + str(k) + " =======")
         #Train Model and Predict  
-        epsilon = 1e-4
-        knc = KNeighborsClassifier(n_neighbors = k, eps=epsilon).fit(train,ytrain)
+        knc = KNeighborsClassifier(n_neighbors = k).fit(train,ytrain)
 
         # Predicting
         # we can use the model to predict the test set:
